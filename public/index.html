@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+  Braden McCoy
+  8/14/2019
+
+  This is the main page for the Giraffes Store site, where you can purchase Giraffes and stuff!
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="giraffeStore.js"></script>
+    <title>Home - Giraffe Store</title>
+  </head>
+
+  <body>
+    <header class="vert-section">
+      <h1>Giraffe Store</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="store-front" class="vert-section">
+      <div id="checkout-button" class="add-to-cart">
+        <p>Checkout</p>
+      </div>
+      <div id="search">
+        <form id="input-form" class="vert-section">
+          Search<input name="filter" type="search">
+          <button id="submit-btn">Submit</button>
+        </form>
+
+      </div>
+      <section id="item-page">
+      </section>
+
+      <section id="item-view" class="hidden">
+      </section>
+
+      <section id="review-page" class="hidden vert-section">
+      </section>
+
+      <section id="checkout-page" class="hidden">
+        <section id="order-summary" class="vert-section">
+          <h3>Order Summary</h3>
+          <p>
+            Items (n): $$$<br>
+            Shipping & Handling: $$$
+          </p>
+          <hr>
+          <p>
+            Subtotal: $$$<br>
+            Tax: $$$<br>
+            Order Total: $$$
+          </p>
+          <p class="add-to-cart" id="purchase">Purchase</p>
+        </section>
+      </section>
+    </main>
+
+
+
+    <footer>
+      <p>Created by &copy; Braden McCoy 2019</p>
+      <p>Images from <a href ="https://www.pexels.com/search/giraffe/">Pexels</a></p>
+    </footer>
+  </body>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+  Braden McCoy
+  8/14/2019
+
+  This is the review page for the Giraffes Store site, contains forms for users to add feedback
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="review.js"></script>
+    <title>Add a review - Giraffe Store</title>
+  </head>
+
+<body>
+  <header class="vert-section">
+    <h1>Giraffe Store</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <form id="input-form" class="vert-section">
+      Name: <input name="name" type="text" required/>
+      Product: <input name="product" type="text" required/>
+      Review: <textarea name="review" rows="10" cols="30" required></textarea>
+      <button id="submit-btn">Submit</button>
+    </form>
+    <form id="feedback-form" class="vert-section">
+      Name: <input name="name" type="text" required/>
+      Feedback: <textarea name="text" rows="10" cols="30" required></textarea>
+      <button id="feedback-submit-btn">Submit</button>
+    </form>
+  </main>
+  <footer>
+    <p>Created by &copy; Braden McCoy 2019</p>
+    <p>Images from <a href ="https://www.pexels.com/search/giraffe/">Pexels</a></p>
+  </footer>
+</body>

@@ -1,0 +1,143 @@
+/*
+  Braden McCoy
+  8/14/2019
+  This is the styles page for index.html, review.html and about.html
+*/
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap');
+
+body {
+  width: 90%;
+  margin: auto;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  margin: 20px;
+  font-size: 18pt;
+  display: inline;
+  list-style-type: none;
+}
+
+#store-front, #checkout {
+  display: flex;
+}
+
+#checkout-button {
+  align-self: flex-end;
+  text-align: center;
+}
+
+section {
+  background-color: #36393f;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  border: 5px solid white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.vert-section {
+  flex-direction: column;
+}
+
+.cart-item {
+
+  height: 100px;;
+}
+
+.cart-item, #order-summary {
+  background-color: #4a1a8b;
+}
+
+#order-summary {
+  min-width: 400px;
+  max-height: 500px;
+}
+
+item-info {
+  padding: 50px;
+  margin: 25px;
+}
+
+.add-to-cart {
+  margin: 10px;
+  border: 5px solid white;
+  width: 300px;
+  color: white;
+  align-self: center;
+}
+
+.item {
+  flex-grow: 3;
+  margin: 10px;
+  border: 3px solid;
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 500px;
+}
+
+.item, .add-to-cart, body {
+  background-color: #26262b;
+}
+
+.item, .add-to-cart {
+  cursor: pointer;
+}
+
+img {
+  max-height: 400px;
+  max-width: 450px;
+}
+
+blockquote p {
+  font-style: italic;
+}
+
+hr {
+  width: 80%;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+form > * {
+  width: 20%;
+}
+
+.btn {
+  display: block;
+  width: 300px;
+}
+
+a:link {
+  text-decoration: none;
+  color: #4a1a8b;
+}
+
+a:visited {
+  color: #4a1a8b;
+}
+
+input:invalid, textarea:invalid {
+  border: 2px red;
+}
+
+input:valid, textarea:valid {
+  border: 2px solid black;
+}
+
+.hidden {
+  display: none;
+}
